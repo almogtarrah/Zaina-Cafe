@@ -19,6 +19,266 @@
                 color: #483312;
             }
 nav{
+    background-color: rgba(255, 255, 255, 0.27);
+    padding: 0px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+        }
+nav button{
+    background-color: #c62f7d;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    margin: 0px;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+<nav>
+    <button onclick="location.href='index.html'">menu</button>
+    <button onclick="location.href='about.html'">about us</button>
+    <button onclick="location.href='contact.html'">contact us</button>
+</nav>
+
+nav button:hover{
+    background-color: #d16ba3;
+    transform: scale(1.08);
+}
+nav a {
+    text-decoration: none;
+    color: rgb(247, 229, 239);
+    background-color: #8a6d7ccf ;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #483312;
+    transform: scale(1.1);
+}
+h1{
+    font-family: 'Courgette', cursive;
+    font-size: 80px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+h2{
+        font-family: 'Italianno', cursive;
+    font-size: 80px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+h3{
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+h4{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+    margin-top: 15px;
+    line-height: 1.5;
+    font-weight: bold;
+}   
+
+.menu-section {
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;}
+.card{
+    background-color: rgba(233, 210, 189, 0.611);
+    width: 300px;
+    margin: 25px;
+    padding: 20px;
+    border-radius:20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    margin:auto;
+}
+.card img{
+    width:300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.2);
+}
+button{
+    background-color: #534b4f67;
+    color: rgb(246, 205, 228);
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #77365d9d;
+    transform:scale(1.08);
+}
+</style>
+    </head>
+
+<nav>
+
+<a href="index.html">menu</a>
+<a href="about.html">about us</a>
+<a href="contact.html">contact us</a>
+</nav>
+
+
+
+        <h1>ZAINA Cafe</h1>
+        <p>Fresh coffee, Sweet moments</p>
+
+        <div class="menu-section">
+          
+            
+            <div class="card">
+
+                  <h2>Coffee</h2>
+
+                 <h3>Turkish Coffee</h3>
+                 <img src="images/tc.png">
+                   <p>Strong and aromatic, a traditional favorite.</p>
+                   <h4>12 SAR   </h4>
+                   <button>Order Now</button>
+
+                  <h3>Espresso</h3>
+                  <img src="images/ec.png">
+                  <p>Rich and bold, the perfect start to your day.</p>
+                  <h4>15 SAR</h4>
+                  <button>Order Now</button>
+
+                    <h3>Cappuccino</h3>
+                    <img src="images/cc.png">
+                    <p>Velvety smooth with a perfect balance of espresso and milk.</p>
+                    <h4>18 SAR</h4>
+                    <button>Order Now</button>
+
+                    <h3>Americano</h3>
+                    <img src="images/ac.png">
+                    <p>Espresso diluted with hot water, perfect for those who like their coffee strong but not too intense.</p>
+                    <h4>15 SAR</h4>
+                    <button>Order Now</button>
+
+                    <h3>Frappuccino</h3>
+                    <img src="images/fc.png">
+                    <p>Cool and creamy, a refreshing twist on traditional coffee.</p>
+                    <h4>20 SAR</h4>
+                    <button>Order Now</button>
+
+                    <h2>Light Meals</h2>
+
+                    <h3>Caesar Salad</h3>
+                    <img src="images/cs.png">
+                    <p>A classic salad with crisp romaine, creamy dressing, and crunchy croutons.</p>
+                    <h4>25 SAR</h4>
+                    <button>Order Now</button>
+                    
+                    <h3>Grilled Chicken Sandwich</h3>
+                    <img src="images/chs.png">
+                    <p>Juicy grilled chicken breast with fresh veggies and a tangy sauce.</p>
+                    <h4>30 SAR</h4>
+                    <button>Order Now</button>
+
+                    <h3>Veggie Wrap</h3>
+                    <img src="images/vs.png">
+                    <p>A colorful mix of fres   h vegetables wrapped in a soft tortilla.</p>
+                    <h4>28 SAR</h4> 
+                    <button>Order Now</button>
+
+                    <h3>Halloumi Sandwich</h3>
+                    <img src="images/hs.png">
+                    <p>Grilled halloumi cheese with fresh veggies and a zesty sauce.</p>
+                    <h4>32 SAR</h4>
+                    <button>Order Now</button>
+
+                    <h3>Club Sandwich</h3>
+                    <img src="images/cls.png">
+                    <p>A hearty sandwich with layers of turkey, bacon, lettuce, and tomato.</p>
+                    <h4>35 SAR</h4>
+                    <button>Order Now</button>
+
+                    <h2>Desserts</h2>
+
+                    <h3>Chocolate Cake</h3>
+                    <img src="images/d1.png">
+                    <p>A rich and decadent chocolate cake that melts in your mouth.</p>
+                        <h4>20 SAR</h4>
+                        <button>Order Now</button>
+                    
+                    <h3>Cheesecake</h3>
+                    <img src="images/d2.png">
+                    <p>A creamy and smooth cheesecake with a graham cracker crust.</p>
+                    <h4>25 SAR</h4>
+                    <button>Order Now</button>
+
+                    <h3>Fruit Tart</h3>
+                    <img src="images/d3.png">
+                    <p>A colorful tart filled with fresh fruits and a sweet glaze.</p>
+                    <h4>22 SAR</h4>
+                    <button>Order Now</button>
+
+                    <h3>Chocolate Croissant</h3>
+                    <img src="images/d4.png">
+                    <p>A flaky croissant filled with rich chocolate, perfect for a sweet breakfast treat.</p>
+                    <h4>18 SAR</h4>
+                    <button>Order Now</button>
+
+                    <h3>Strawberry Crepe</h3>
+                    <img src="images/d5.png">
+                    <p>A delicate crepe filled with fresh strawberries and whipped cream.</p>
+                    <h4>20 SAR</h4>
+                    <button>Order Now</button>
+
+        </div>
+
+
+
+
+
+
+
+        </style>
+</html><!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ZAINA Cafe</title>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Italianno&family=Lobster&family=Courgette&family=Satisfy&disply=swap" rel="stylesheet">
+        
+        <style>
+            body{ 
+                margin: 0;
+                font-family: Georgia, sans-serif;
+                background-color:rgba(255, 255, 255, 0.9);
+                background-image: url(images/bg.jpeg);
+                background-repeat: repeat-y;
+                background-size: contain;
+                background-position: center center;
+                background-attachment: fixed;
+                text-align: center;
+                color: #483312;
+            }
+nav{
     background-color: rgba(255, 255, 255, 0.053);}
     padding: 15px;
     <button onclick="location.href='index.html'">menu</button>
